@@ -14,5 +14,9 @@ workflow:
             status: enable
             project: home:uncomfyhalomacro
             package: wayshot
+    - rebuild_package:
+        project: home:uncomfyhalomacro
+        package: wayshot
   filters:
     event: push
+ 
