@@ -1,0 +1,18 @@
+workflow:
+  steps:
+    - set_flags:
+        flags:
+          - type: build
+            status: enable
+            project: home:uncomfyhalomacro
+            package: wayshot
+          - type: publish
+            status: disable
+            project: home:uncomfyhalomacro
+            package: wayshot
+          - type: sourceaccess
+            status: enable
+            project: home:uncomfyhalomacro
+            package: wayshot
+  filters:
+    event: push
