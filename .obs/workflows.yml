@@ -7,7 +7,7 @@ workflow:
             project: home:uncomfyhalomacro
             package: wayshot
           - type: publish
-            status: disable
+            status: enable
             project: home:uncomfyhalomacro
             package: wayshot
           - type: sourceaccess
